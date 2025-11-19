@@ -1,0 +1,11 @@
+BATCH_SIZE: 16
+RESOLUTION: 256
+KNN_INSTANCES: 25
+DEVICE: "cuda:4"
+
+SPLIT: "Split-4" #One of: "ES1","ES2","ES3","ES4","ES5","Split-1","Split-2","Split-3","Split-4",
+
+PATHS:
+  ROUTE_ENCODER: "Contrastive_ES1_EPOCH.pth"
+
+
